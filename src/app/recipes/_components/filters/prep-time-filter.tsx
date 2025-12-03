@@ -41,7 +41,7 @@ export function PrepTimeFilter() {
           Max Prep Time <ChevronDownIcon />
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="min-w-60 border-neutral-300 rounded-[0.625rem] shadow-[0_12px_22px_-12px_rgba(57,88,82,0.16)]">
+      <DropdownMenuContent className="min-w-60 bg-neutral-0 border-neutral-300 rounded-[0.625rem] shadow-[0_12px_22px_-12px_rgba(57,88,82,0.16)]">
         <DropdownMenuRadioGroup
           value={prepTime}
           onValueChange={handleValueChange}
