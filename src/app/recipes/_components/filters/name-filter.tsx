@@ -11,7 +11,6 @@ export function NameFilter() {
   const inputRef = useRef<HTMLInputElement>(null);
 
   const handleSearchParamsUpdate = () => {
-    if (searchParams.size === 0) return;
     const query = inputRef.current?.value || '';
     const newSearchParams = new URLSearchParams(searchParams);
     if (query === '') {
